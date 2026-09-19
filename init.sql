@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS employees (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    department VARCHAR(100) DEFAULT NULL,
+    salary DECIMAL(10,2) DEFAULT NULL,
+    PRIMARY KEY (id),
+    UNIQUE KEY email (email)
+) ENGINE=InnoDB
+DEFAULT CHARSET=utf8mb4
+COLLATE=utf8mb4_0900_ai_ci;
