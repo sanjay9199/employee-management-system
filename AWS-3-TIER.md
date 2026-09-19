@@ -123,3 +123,23 @@ AWS Deployment
 - Tracks actions performed in AWS
 - Helps with auditing and security monitoring
 ```
+
+
+## 🔄 Our Deployment Workflow
+
+We follow a step-by-step deployment and documentation process.
+
+```text
+Step 1
+  ↓
+Perform the setup
+  ↓
+Run the required command
+  ↓
+Verify the result
+  ↓
+Record the command + result
+  ↓
+Update AWS-3-TIER.md
+  ↓
+Move to the next step
