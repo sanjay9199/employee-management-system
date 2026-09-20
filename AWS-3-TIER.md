@@ -1,4 +1,4 @@
-
+<img width="1907" height="970" alt="image" src="https://github.com/user-attachments/assets/6b8c6739-41ca-46ac-a27a-7dea24bdad57" />
 # ☁️ AWS 3-Tier Deployment
 
 > 🚧 AWS and DevOps deployment roadmap for this project.
@@ -143,3 +143,21 @@ Record the command + result
 Update AWS-3-TIER.md
   ↓
 Move to the next step
+```
+
+Step 1 — EC2 Launch
+```text
+Name:-  employee-management-server
+Application and OS Image:-
+Ubuntu
+Ubuntu Server 24.04 LTS
+key-paire:- employee-management-key
+
+lunch , select  and connect
+### EC2 Connection
+
+
+sudo apt update
+ssh -i "employee-management-key.pem" ubuntu@PUBLIC_IP
+
+```
